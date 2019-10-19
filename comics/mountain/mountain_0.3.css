@@ -1,0 +1,78 @@
+body {
+  background-color:white;
+  font-family: 'Trirong', serif;
+  margin:0px;
+  background-color:black;
+  color:white;
+}
+
+#header {
+  width:100%;
+  background: url("http://www.laocteau.com/comics/mountain/sky_top.png") top repeat-x;
+  background-size: contain;
+  height:10em;
+  padding-top:1em;
+  margin-bottom:1em;
+  color:#d9ffd6;
+}
+
+#page {
+  width:800px;
+  margin:0 auto;
+  padding: 0px;
+}
+
+#page img {
+  width:inherit;
+  display:block;
+}
+
+.links {
+  display:block;
+  width:800px;
+  margin:0 auto;
+  margin-bottom:12px;
+  padding:0px;
+}
+
+#title {
+  margin-bottom:0px;
+  letter-spacing:0.5em;
+}
+
+h2 {
+  letter-spacing:0.05em;
+  word-spacing:0.5em;
+}
+
+#title, h2, h6 {
+  text-align:center;
+  margin:0px;
+}
+
+.link {
+  height:2.5em;
+  line-height:2.5em;
+  background-color:#b17697;
+}
+
+.menu_item {
+  display:inline-block;
+  width:200px;
+  margin:0px;
+}
+
+.menu_item img {
+  margin:12px 50px;
+  height:72px;
+  width:100px;
+}
+
+a {
+  color:#3a5090
+}
+
+.filler {
+  width:100px;
+  display:inline-block;
+}

@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>Stewart Smith</title>
+		<link rel="stylesheet" type="text/css" href="normalize.css" />
+		<style>
+
+			body {
+				background-color: #8AB9F1; /* jordy blue */
+			}
+			#header {
+				height:61.8vh;
+			}
+
+			.folder {
+				position:relative;
+				background-color: #f1d592;
+				width: 100%;
+				height: 20%;
+				box-shadow: 0px 2vh 2px 2px #D9C083;
+				/* -moz-box-shadow: 0px 10vh grey; */
+			}
+
+			#folder2 {
+				top: -5%;
+			}
+
+			#folder2 > .tab {
+				left: 20vw;
+			}
+
+			#folder3 {
+				top: -10%;
+			}
+
+			#folder3 > .tab {
+				left: 40vw;
+			}
+
+			#folder4 {
+				top: -15%;
+			}
+
+			#folder4 > .tab {
+				left: 60vw;
+			}
+
+			#folder5 {
+				top: -20%;
+				box-shadow: 0px 2vh 2px 2px #7ca7d9;
+			}
+
+			#folder5 > .tab {
+				left: 80vw;
+			}
+
+			#folder5 > .tabshadow {
+				box-shadow: 0px 2vh 2px 2px #7ca7d9;
+			}
+
+			.tab {
+				position:absolute;
+				border-radius: 8px;
+				width:20%;
+				height: 100%;
+				bottom: -50%;
+				background-color: #f1d592;
+				/* box-shadow: 0px 2vh 10px 10px #D9C083; */
+			}
+
+			.tabshadow {
+				position:absolute;
+				height: 50% !important; 
+				box-shadow: 0px 2vh 2px 2px #D9C083;
+			}
+
+			.tablabel {
+				font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+				font-size: 4.944vh;
+				position:absolute;
+				bottom: 0px;
+				left: 1vw;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id = "header">
+			<div class = "folder" style = "z-index:10">
+				<div class = "tab" style = "z-index:10">
+					<span class = "tablabel">ABOUT</span>
+				</div>
+
+				<div class = "tab tabshadow" style = "z-index:9"></div>
+				<img src = "picture.jpg" style = "position: relative; height:100%; z-index:10"/>
+			</div>
+			<div class = "folder" id="folder2" style = "z-index:8">
+				<div class = "tab" style = "z-index:8">
+					<span class = "tablabel">CV</span>
+				</div>
+				<div class = "tab tabshadow" style = "z-index:7"></div>
+			</div>
+			<div class = "folder" id="folder3" style = "z-index:6">
+				<div class = "tab" style = "z-index:6">
+					<span class = "tablabel">COMICS</span>
+				</div>
+				<div class = "tab tabshadow" style = "z-index:5"></div>
+			</div>
+			<div class = "folder" id="folder4" style = "z-index:4">
+				<div class = "tab" style = "z-index:4">
+					<span class = "tablabel">STORIES</span>
+				</div>
+				<div class = "tab tabshadow" style = "z-index:3"></div>
+			</div>
+			<div class = "folder" id="folder5" style = "z-index:2">
+				<div class = "tab" style = "z-index:2">
+					<span class = "tablabel">FILMS</span>
+				</div>
+				<div class = "tab tabshadow" style = "z-index:1"></div>
+			</div>
+		</div>
+	</body>
+</html>

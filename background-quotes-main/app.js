@@ -1,4 +1,4 @@
-const api_url = "https://zenquotes.io/api/quotes/";
+const api_url = "https://zenquotes.io/api/quotes";
 
 const authorTarget = document.querySelector("#authorTag");
 const quoteTarget = document.querySelector("#quoteTag");
@@ -40,5 +40,5 @@ function main() {
   writeQuote(data);
 }
 
-console.log("test2")
+console.log("test3")
 main()

@@ -41,5 +41,5 @@ function main() {
   writeQuote(data);
 }
 
-console.log("test")
+console.log("test2")
 main()

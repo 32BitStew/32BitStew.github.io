@@ -9,8 +9,8 @@ async function getapi(url) {
     mode: "cors",
     credentials:"include",
     headers: {
-      "Content-Type":"application/json"
-      // "Access-Control-Allow-Origin":"*"
+      "Content-Type":"application/json",
+      "Access-Control-Allow-Origin":"http://32bitstew.github.io"
     }
   });
   console.log(response);

@@ -7,7 +7,6 @@ async function getapi(url) {
   const response = await fetch(url, {
     method: "GET",
     mode: "cors",
-    credentials:"include",
     headers: {
       "Content-Type":"application/json",
       "Access-Control-Allow-Origin":"http://32bitstew.github.io"
